@@ -1,0 +1,76 @@
+body, html, .header, .coding_pic, .projects_list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #2d3c49;
+  background-image: url("http://cdn.mysitemyway.com/etc-mysitemyway/backgrounds/legacy-previews/backgrounds/wood/wood-002642-gray-black.jpg");
+  background-size: cover;
+
+}
+.header {
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/02/98/17561c7cde948db.jpg");
+  min-height: 175px;
+  padding-bottom: 1em;
+  vertical-align: top;
+  display: inline-block;
+  box-shadow: 3px 3px 5px grey;
+}
+.header__logo {
+  width: 120px;
+  vertical-align: middle;
+  border-radius: 40%;
+  position: absolute;
+  margin-left: .5em;
+  box-shadow: 1px 1px 5px white;
+}
+.header__title {
+  text-align: right;
+  position: relative;
+  font-weight: 100;
+  font-size: 3em;
+  color: #2d3c49;
+}
+.second__title {
+  text-align: right;
+  vertical-align:top;
+  padding-right: 4em;
+  margin: 0.5em 0.5em;
+  font-weight: 100;
+  font-size: 16px;
+}
+.coding_pic {
+  padding-top: 1em;
+  width: 100%;
+  box-shadow: 3px 3px 3px grey;
+}
+.projects {
+  text-align: center;
+  color: #02b3e4;
+}
+.projects_list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project_image {
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+  color: #02b3e4;
+  padding-bottom: 1em;
+}
+.project_pic {
+  width: 250px;
+  height: 180px;
+  opacity: 0.7;
+  box-shadow: 4px 4px 6px black;
+}
+.project_pic:hover {
+  box-shadow: 4px 5px 5px black;
+  opacity: 1.0;
+}
+.link {
+  font-size: 10px;
+  color: #02b3e4;
+}
