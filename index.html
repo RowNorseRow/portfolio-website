@@ -4,47 +4,75 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!--Add a favicon to the tab at the top of the users browser-->
-    <link rel="shortcut icon" href="images\favicon.ico">
+    <link rel="shortcut icon" href="images\favicon.ico"><!--Add a favicon to the tab at the top of the users browser-->
     <title>My Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="responsive.css">
   </head>
   <body>
+
     <header class="header">
         <div class="header__inner">
           <img class="header__logo" src="images\profile_pic.jpg" alt="profile pic">
           <h1 class="header__title">ALLEN ELLIS
           <p class="second__title">WEB-DEV KUNG-FU</p>
+          <a href="mailto:diamondstateellis@gmail.com" class="third__title" target="_blank">diamondstateellis@gmail.com</a>
           </h1>
         </div>
     </header>
-  <main>
-<!--Add heading for projects. Almost like a header-->
-    <h1 class="projects">Featured Work</h1>
-<!--Below contains all of the contents for the projects themselves-->
-    <div class="projects_list">
-      <div class="project_image">
-        <a href="https://rownorserow.github.io/arkansas_webpage/Start/" target ="_blank">
-        <!--Using target="_blank" allows the link to open in either another tab or browser-->
-          <img class="project_pic" src="images\hog_stop.png" alt="the hog stop">
-        </a>
-        <h2>The Hog Stop</h2>
-        <p class="link">https://github.com/RowNorseRow/arkansas_webpage</p>
+
+    <main>
+      <!--Add heading for projects. Almost like a header-->
+      <h1 class="projects">Featured Work</h1>
+      <!--Below contains all of the contents for the projects themselves-->
+      <div class="projects_list">
+        <div class="project_image">
+          <a href="https://rownorserow.github.io/portfolio-website/" class="project_title" target="_blank">
+            <img class="project_pic" src="images\portfolio.png" alt="Projects Portfolio Website">
+            <h2>Projects Portfolio</h2>
+          </a>
+          <a href="https://github.com/RowNorseRow/portfolio-website" class="repo" target="_blank">https://github.com/RowNorseRow/portfolio-website</a>
+        </div>
+        <div class="project_image">
+          <a href="https://rownorserow.github.io/arkansas_webpage/Start/" class="project_title" target ="_blank">
+          <!--Using target="_blank" allows the link to open in either another tab or browser-->
+            <img class="project_pic" src="images\hog_stop.png" alt="The Hog Stop">
+            <h2>The Hog Stop</h2>
+          </a>
+          <a href="https://github.com/RowNorseRow/arkansas_webpage" class="repo" target="_blank">https://github.com/RowNorseRow/arkansas_webpage</a>
+        </div>
+        <div class="project_image">
+          <a href="https://rownorserow.github.io/responsive_webpage/Start/" class="project_title" target="_blank">
+            <img class="project_pic" src="images\hometown.png" alt="Hometown News">
+            <h2>Hometown News</h2>
+          </a>
+          <a href="https://github.com/RowNorseRow/responsive_webpage" class="repo" target="_blank">https://github.com/RowNorseRow/responsive_webpage</a>
+        </div>        
+        <div class="project_image">
+          <a href="https://rownorserow.github.io/best_movies/" class="project_title" target="_blank">
+            <img class="project_pic" src="images\best_movies.png" alt="Favorite Movies">
+            <h2>Favorite Movies</h2>
+          </a>
+           <a href="https://github.com/RowNorseRow/best_movies" class="repo" target="_blank">https://github.com/RowNorseRow/best_movies</a>
+        </div>
       </div>
-      <div class="project_image">
-        <a href="https://rownorserow.github.io/best_movies/" target="_blank">
-          <img class="project_pic" src="images\best_movies.png" alt="the hog stop">
-        </a>
-        <h2>Favorite Movies</h2>
-        <p class="link">https://github.com/RowNorseRow/best_movies</p>
-      </div>
-      <div class="project_image">
-        <a href="https://rownorserow.github.io/responsive_webpage/Start/" target="_blank">
-          <img class="project_pic" src="images\hometown.png">
-        </a>
-        <h2>Hometown News</h2>
-        <p class="link">https://github.com/RowNorseRow/responsive_webpage</p>
-      </div>
-    </div>
+
+      <footer>
+        <h1 class="projects">Links</h1>
+        <ul class="contact">
+          <li class="contact_link">
+            <a href="https://www.linkedin.com/in/allen-ellis-847039134/">
+              <img class="contact_link_pic" src="images\linkedinlogo.png" alt="LinkedIn logo">
+            </a>
+          </li>
+          <li class="contact_link">
+            <a href="https://github.com/RowNorseRow">
+              <img class="contact_link_pic" src="images\github-banner.jpg">
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </main>
+  </body>
+</html>
