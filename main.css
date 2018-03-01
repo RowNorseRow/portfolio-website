@@ -2,7 +2,7 @@ body{
   background-image: url("http://cdn.mysitemyway.com/etc-mysitemyway/backgrounds/legacy-previews/backgrounds/wood/wood-002642-gray-black.jpg");
   background-size: cover;
 }
-body, html, footer, .header,.projects_list, ul, li, h1 {
+body, html, footer, .header,.projects_list, .header_logo, ul, li, h1 {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -12,17 +12,20 @@ body, html, footer, .header,.projects_list, ul, li, h1 {
 h2 {
   color: #02b3e4;
 }
+main{
+  padding-top: 2em;
+}
 .header {
   background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/02/98/17561c7cde948db.jpg");
-  min-height: 140px;
-  padding-bottom: 1em;
+  max-height: 140px;
   vertical-align: top;
   display: inline-block;
   box-shadow: 3px 3px 5px grey;
+  padding-bottom: : 0.5em;
 }
 .header__logo {
-  width: 125px;
-  vertical-align: middle;
+  width: 105px;
+  vertical-align: top;
   border-radius: 50%;
   position: absolute;
   margin-left: .5em;
