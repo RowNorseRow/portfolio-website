@@ -5,20 +5,27 @@
   .second__title {
     padding-right: 1em;
   }
+  .third__title {
+    font-size: 14px;
+    padding: 0;
+  }
   .project_image {
     width: 100%;
   }
-  .link {
-    display: none;
-    /*This hides the link when the viewport is smaller than 400px*/
+  .contact_link_pic {
+    width: 150px;
+    height: 75px;
   }
 }
-@media screen and (min-width: 400px) and (max-width: 549px) {
+@media screen and (min-width: 401px) and (max-width: 549px) {
   .header__title {
     font-size: 2.5em;
   }
   .second__title{
-    padding-left: 1em;
+    padding-right: 2em;
+  }
+  .third__title {
+    padding: 0;
   }
   .project_image {
     width: 100%;
@@ -27,17 +34,28 @@
     width: 350px;
     height: 200px
   }
+  .contact_link_pic {
+    width: 150px;
+    height: 75px;
+  }
 }
-@media screen and (min-width: 550px) and (max-width: 650px) {
+@media screen and (min-width: 550px) and (max-width: 649px) {
   .project_image {
     width: 50%;
   }
 }
-@media screen and (min-width: 650px) and (max-width: 850px) {
+@media screen and (min-width: 650px) and (max-width: 899px) {
   .project_image {
     width: 50%;
   }
   .project_pic {
     width: 300px;
+  }
+}
+@media screen and (min-width: 900px) {
+  body {
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
