@@ -7,6 +7,7 @@
   }
   .third__title {
     font-size: 14px;
+
     padding: 0;
   }
   .project_image {
@@ -14,6 +15,7 @@
   }
   .contact_link_pic {
     width: 150px;
+
     height: 75px;
   }
 }
@@ -32,10 +34,12 @@
   }
   .project_pic{
     width: 350px;
+
     height: 200px
   }
   .contact_link_pic {
     width: 150px;
+
     height: 75px;
   }
 }
@@ -55,7 +59,9 @@
 @media screen and (min-width: 900px) {
   body {
     width:900px;
+
     margin-left: auto;
+
     margin-right: auto;
   }
 }
